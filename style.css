@@ -1,0 +1,59 @@
+body {
+  background-color: #ad9e9e;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  padding: 50px;
+}
+
+form input {
+  margin-left: 16px;
+  padding: 8px;
+}
+
+form button {
+  margin-left: 16px;
+  padding: 8px;
+  background-color: #147121;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #145e1e;
+}
+
+label {
+  font-size: 18px;
+}
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+#clear-list {
+  margin-top: 20px;
+  margin-right: 80px;
+  position: absolute;
+  right: 0;
+  width: 10%;
+  background-color: #dc3545;
+  cursor: pointer;
+
+}
+
+#clear-list:hover {
+  background-color: #a53540;
+}
